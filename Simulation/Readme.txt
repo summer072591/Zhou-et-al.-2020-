@@ -3,7 +3,7 @@ vectors are sampled from (-1, 1, 0) ("discrete_dist_beta") or
 N(0, 1) + \delta_0 ("norm_dist_beta") with probability (0.005, 0.005, 0.99) ("XXX_sparse5")or 
 (0.05, 0.05, 0.9) ("XXX_sparse50"). 
 
-Folders were created for parallel computing on VSC. The R files named "WrapFull_wrapper_XXX.R"
+Folders were created for parallel computing on HPC. The R files named "WrapFull_wrapper_XXX.R"
 and the batch files "WrapFull_XXX.pbs" are used for running jobs on VSC. 
 
 
@@ -15,5 +15,7 @@ in order to achieve convergence
 Same files are used in the real data section, but "simu_test_compare_XXX.R" should be replaced by 
 "simu_test_compare.R" under the folder "real data section".
 
-NOTICE!!! Original data used for producing the tables in Zhou et al. are stored in the folders named
+NOTICE!!! Original data used for producing the tables in Zhou et al. (2020)
+https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-14/issue-2/Detangling-robustness-in-high-dimensions--Composite-versus-model-averaged/10.1214/20-EJS1728.full
+are stored in the folders named
 "data" under the directories for each simulation setting.
